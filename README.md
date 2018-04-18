@@ -12,7 +12,7 @@ HTML:
 ```
 
 ### CSS
-Style your slider however you want. For example:
+Style your lightbox however you want. For example:
 ```css
 lightbox .caption {position:absolute;bottom:5%;right:5%;color:#fff}
 lightbox .close {position:absolute;top:3%;right:3%;color:#fff}
