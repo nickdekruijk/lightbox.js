@@ -1,0 +1,20 @@
+{
+    "name": "nickdekruijk/slider.js",
+    "description": "A simple jQuery lightbox plugin",
+    "license": "MIT",
+	"keywords": [
+		"lightbox",
+		"enlager"
+		"jquery"
+	],
+    "authors": [
+        {
+            "name": "Nick de Kruijk",
+            "email": "git@nickdekruijk.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "components/jquery": "*"
+    }
+}
