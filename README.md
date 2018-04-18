@@ -2,7 +2,7 @@
 A basic lightbox plugin. Fully customisable with CSS.
 
 
-##Usage
+## Usage
 HTML:
 ```html
 <a href="/path/to/bigimage1.jpg" rel="lightbox" data-caption="Caption 1"><img src="/path/to/thumbnail1.jpg" alt=""></a>
@@ -11,7 +11,7 @@ HTML:
 <a href="/path/to/bigimage4.jpg" rel="lightbox" data-caption="Caption 4"><img src="/path/to/thumbnail4.jpg" alt=""></a>
 ```
 
-###CSS
+### CSS
 Style your slider however you want. For example:
 ```css
 lightbox .caption {position:absolute;bottom:5%;right:5%;color:#fff}
@@ -19,7 +19,7 @@ lightbox .close {position:absolute;top:3%;right:3%;color:#fff}
 lightbox .close:after {content:'×'}
 ```
 
-###JS
+### JS
 ```javascript
 $('A[rel=lightbox]').lightbox({
     option1:'value1',
@@ -27,7 +27,7 @@ $('A[rel=lightbox]').lightbox({
 });
 ```
 
-###Options: default value|other options
+### Options: default value|other options
 ```
 arrowkeys: true|false             # Enable keyboard left and right arrow keys
 touchwipe: true|false             # Enable touch device left and right swipe gestures
